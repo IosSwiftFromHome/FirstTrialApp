@@ -13,6 +13,8 @@
 		0816E7631C7CF726000BC6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0816E7621C7CF726000BC6D3 /* Assets.xcassets */; };
 		0816E7661C7CF726000BC6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0816E7641C7CF726000BC6D3 /* LaunchScreen.storyboard */; };
 		0816E7711C7CF726000BC6D3 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0816E7701C7CF726000BC6D3 /* HelloWorldTests.swift */; };
+		08F79EFA1C7E0132007B9AD9 /* ^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08F79EF91C7E0132007B9AD9 /* ^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg */; };
+		08F79EFC1C7E0185007B9AD9 /* speech-bubbles-chat (4).png in Resources */ = {isa = PBXBuildFile; fileRef = 08F79EFB1C7E0185007B9AD9 /* speech-bubbles-chat (4).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0816E76C1C7CF726000BC6D3 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0816E7701C7CF726000BC6D3 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
 		0816E7721C7CF726000BC6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F79EF91C7E0132007B9AD9 /* ^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg"; sourceTree = "<group>"; };
+		08F79EFB1C7E0185007B9AD9 /* speech-bubbles-chat (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech-bubbles-chat (4).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		0816E75A1C7CF726000BC6D3 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				08F79EFB1C7E0185007B9AD9 /* speech-bubbles-chat (4).png */,
+				08F79EF91C7E0132007B9AD9 /* ^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg */,
 				0816E75B1C7CF726000BC6D3 /* AppDelegate.swift */,
 				0816E75D1C7CF726000BC6D3 /* ViewController.swift */,
 				0816E75F1C7CF726000BC6D3 /* Main.storyboard */,
@@ -181,6 +187,8 @@
 				0816E7661C7CF726000BC6D3 /* LaunchScreen.storyboard in Resources */,
 				0816E7631C7CF726000BC6D3 /* Assets.xcassets in Resources */,
 				0816E7611C7CF726000BC6D3 /* Main.storyboard in Resources */,
+				08F79EFA1C7E0132007B9AD9 /* ^FC2B3D08B897814B3397DF1CD5A8C115EC87AD585BA3774CD6^pimgpsh_fullsize_distr.jpg in Resources */,
+				08F79EFC1C7E0185007B9AD9 /* speech-bubbles-chat (4).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,7 @@
 				0816E7771C7CF726000BC6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0816E7781C7CF726000BC6D3 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				0816E77A1C7CF726000BC6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

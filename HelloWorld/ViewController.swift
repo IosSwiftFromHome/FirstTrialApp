@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var sendMessageButton: UIButton!
-   
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,13 +27,19 @@ class ViewController: UIViewController {
     }
     @IBAction func onSendMessageClicked(sender: UIButton) {
         messageLabel.hidden = false
-        
-                messageLabel.text? = sendMessage(nameTextField.text!, hasNewMessage: messageTextField.text!)
-        
+        messageLabel.text? = sendMessage(nameTextField.text!, hasNewMessage: messageTextField.text!)
         
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
-        nameTextField.text = ""
+        
+       
+        
+        nameLabel.hidden = false
+        nameLabel.text = nameTextField.text
+        
+        nameTextField.resignFirstResponder()
+        nameTextField.text = "";    
+        
         
         
         
