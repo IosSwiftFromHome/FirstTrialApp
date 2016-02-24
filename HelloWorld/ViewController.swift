@@ -26,7 +26,8 @@ class ViewController: UIViewController {
     }
     @IBAction func onSendMessageClicked(sender: UIButton) {
         messageLabel.hidden = false
-        messageLabel.text? = sendMessage(nameTextField.text!, hasNewMessage: messageTextField.text!)
+        
+                messageLabel.text? = sendMessage(nameTextField.text!, hasNewMessage: messageTextField.text!)
         
         
         messageTextField.text = ""
